@@ -1,0 +1,136 @@
+  
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  
+  #header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .h_search_nav {
+    background: deepskyblue;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    padding-right: -10px;
+  }
+  
+  input{
+    width: 750px;
+    min-width: 300px;
+    padding: 10px;
+  }
+  
+  .search_button{
+    width: 45px;
+    min-width: 40px;
+    height: 45px;
+    background-color: orangered;
+  }
+  
+  nav {
+    text-align: right;
+    min-width: 420px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    font-weight: bold;
+  }
+  
+  .banner{
+    margin-bottom: 5px;
+  }
+  
+  img{
+    height: auto;
+    max-width: 100%; 
+  }
+  
+  .product_h{
+    background: yellow;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    color: blue;
+  }
+  
+  .hyp{
+    background: yellow;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+  }
+  
+  .product_h2{
+    background: orange;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+    color: blue; 
+  }
+  
+  #footer{
+    background: deepskyblue;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 5px; 
+  }
+  
+  .f1{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .left{
+    display: inline-block;
+    padding-right: 250px;
+  }
+  
+  .left ul{
+    padding-bottom: 5px;
+  }
+  
+  .center{
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 250px;
+  }
+  
+  .center ul{
+    padding-bottom: 5px;
+  }
+  
+  .right{
+    display: inline-block;
+    padding-left: 50px;
+  }
+  
+  .right ul{
+    padding-bottom: 5px;
+  }
+  
+  .f2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+  }
+  
